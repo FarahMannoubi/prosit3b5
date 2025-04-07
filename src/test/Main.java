@@ -1,3 +1,5 @@
+package test;
+
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -15,9 +17,6 @@ public class Main {
 
         String nameOfZoo = sc.next();
 
-        zm.nbrCages = numberOfCages;
-        zm.zooName = nameOfZoo;
 
-        zm.displayInformation();
     }
 }
